@@ -5,12 +5,12 @@
 class Nanowave < Formula
   desc "Autonomous Apple platform app builder"
   homepage "https://github.com/moasq/nanowave"
-  version "0.35.3"
+  version "0.35.4"
   license "MIT"
   depends_on :macos
 
-  url "https://github.com/moasq/nanowave/releases/download/v0.35.3/nanowave_0.35.3_darwin_all.tar.gz"
-  sha256 "38a9da05f854a3b00fb8920631978f8da1b7c2b5672e815b8e4c43bce92cbd0a"
+  url "https://github.com/moasq/nanowave/releases/download/v0.35.4/nanowave_0.35.4_darwin_all.tar.gz"
+  sha256 "f5f47097e15ef25c36d042389d41bab2288f71c82573dce5c4ee798f5dedbe19"
 
   define_method(:install) do
     bin.install "nanowave"
